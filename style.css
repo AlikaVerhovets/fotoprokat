@@ -6,7 +6,7 @@ body {
     width: 100%;
 }
 
-header {
+header.full {
     min-height: 75px;
     display: grid;
     grid-template-columns: 20% 50% 30%;
