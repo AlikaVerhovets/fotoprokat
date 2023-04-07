@@ -121,7 +121,6 @@ nav ul li a {
     z-index: 0;
 }
 
-
 .our__advantages__section {
     margin-top: -3px;
     height: 130px;
@@ -163,6 +162,11 @@ nav ul li a {
     justify-content: center;
 }
 
+.popular__section .slick-slide.slick-current.slick-active {
+    display: flex;
+    justify-content: center;
+}
+
 .popular__section__container {
     max-width: 80%;
 }
@@ -184,7 +188,6 @@ h3 span {
 .popular__slider__item {
     position: relative;
     border: 1px solid #EFEFEF;
-    margin: 0 20px;
     max-width: 350px;
 }
 
@@ -438,10 +441,6 @@ nav ul li:hover,
         margin: 0;
     }
 
-    .slick-slide.slick-current.slick-active {
-        display: flex;
-        justify-content: center;
-    }
 }
 
 @media only screen and (max-width: 800px) {}
