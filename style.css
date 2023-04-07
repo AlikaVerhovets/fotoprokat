@@ -333,7 +333,7 @@ nav ul li:hover,
 
 @media only screen and (max-width: 1099px) {
     .full {
-        display: none;
+        display: none !important;
     }
 
     .mobile {
